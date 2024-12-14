@@ -1,5 +1,6 @@
 import "./App.css";
-import StateComponent from "./topics/03-state";
+// import StateComponent from "./topics/03-state";
+import EventComponent from "./topics/04-event";
 // import Component from "./topics/02-props";
 
 function App() {
@@ -15,7 +16,8 @@ function App() {
 
       */}
 
-        <StateComponent />
+        {/* <StateComponent /> */}
+        <EventComponent />
 
     </>
   );
