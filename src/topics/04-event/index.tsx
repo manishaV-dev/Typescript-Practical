@@ -9,17 +9,29 @@ function EventComponent() {
     setEmail(e.target.value);
   };
 
+  const handleSubmit = (e:React.FormEvent<HTMLFormElement>) => {
+    e.preventDefault()
+    const formData = new FormData(e.currentTarget)
+    // const formData = new FormData(e.target as HTMLFormElement)
+
+    const data = Object.fromEntries(formData)
+    console.log(data);
+    
+
+  }
+
   return (
     <div>
       <h3>Event Example</h3>
-      <form>
+      <form onSubmit={handleSubmit}>
         <input
           type="text"
           value={text}
           onChange={(e) => setText(e.target.value)}
+          name="text"
         />
 
-        <input type="email" value={email} onChange={handleChange} />
+        <input type="email" value={email} onChange={handleChange} name="email" />
 
         <button type="submit">Submit</button>
       </form>
