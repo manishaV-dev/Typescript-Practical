@@ -66,3 +66,21 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+
+.alert{
+  padding: 5px 8px;
+  margin-bottom: 1rem;
+  border-color: transparent;
+  border-radius: 8px;
+}
+
+.alert-danger{
+  color: #c20707;
+  background: #fc7575;
+}
+
+.alert-success{
+  color: #004527;
+  background: #68fb97;
+}

@@ -18,7 +18,8 @@ function App() {
 
       {/* <StateComponent /> */}
       {/* <EventComponent /> */}
-      <Component />
+      <Component type="advanced" name="Manisha" email="manisha@gmail.com" />
+      <Component type="basic" name="Kajal" />
     </>
   );
 }
