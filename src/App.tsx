@@ -1,7 +1,8 @@
 import "./App.css";
+import ContextComponent from "./topics/06-context";
 // import StateComponent from "./topics/03-state";
 // import EventComponent from "./topics/04-event";
-import Component from "./topics/05-challenge";
+// import Component from "./topics/05-challenge";
 // import Component from "./topics/02-props";
 
 function App() {
@@ -18,10 +19,12 @@ function App() {
 
       {/* <StateComponent /> */}
       {/* <EventComponent /> */}
-      <Component type="advanced" name="Manisha" email="manisha@gmail.com" />
+      {/* <Component type="advanced" name="Manisha" email="manisha@gmail.com" />
       <Component type="basic" name="Kajal" />
       <Component type="basic" name="Seema" />
-      <Component type="advanced" name="Raja" email="raja@email" />
+      <Component type="advanced" name="Raja" email="raja@email" /> */}
+
+      <ContextComponent />
     </>
   );
 }
