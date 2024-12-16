@@ -20,6 +20,8 @@ function App() {
       {/* <EventComponent /> */}
       <Component type="advanced" name="Manisha" email="manisha@gmail.com" />
       <Component type="basic" name="Kajal" />
+      <Component type="basic" name="Seema" />
+      <Component type="advanced" name="Raja" email="raja@email" />
     </>
   );
 }
