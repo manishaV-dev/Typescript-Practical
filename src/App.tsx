@@ -1,7 +1,7 @@
 import "./App.css";
 // import ContextComponent from "./topics/06-context";
 // import ReducerComponent from "./topics/07-reducers";
-import FetchDataComponent from "./topics/08-fetch-data";
+// import FetchDataComponent from "./topics/08-fetch-data";
 // import StateComponent from "./topics/03-state";
 // import EventComponent from "./topics/04-event";
 // import Component from "./topics/05-challenge";
@@ -29,7 +29,8 @@ function App() {
       {/* <ContextComponent />? */}
 
       {/* <ReducerComponent /> */}
-      <FetchDataComponent />
+      {/* <FetchDataComponent /> */}
+      
     </>
   );
 }
