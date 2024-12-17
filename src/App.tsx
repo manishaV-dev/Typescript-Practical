@@ -1,5 +1,6 @@
 import "./App.css";
-import ContextComponent from "./topics/06-context";
+// import ContextComponent from "./topics/06-context";
+import ReducerComponent from "./topics/07-reducers";
 // import StateComponent from "./topics/03-state";
 // import EventComponent from "./topics/04-event";
 // import Component from "./topics/05-challenge";
@@ -24,7 +25,9 @@ function App() {
       <Component type="basic" name="Seema" />
       <Component type="advanced" name="Raja" email="raja@email" /> */}
 
-      <ContextComponent />
+      {/* <ContextComponent />? */}
+
+      <ReducerComponent />
     </>
   );
 }
