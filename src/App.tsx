@@ -1,4 +1,5 @@
 import "./App.css";
+import FetchDataAxios from "./topics/09-fetch-data-axios";
 // import ContextComponent from "./topics/06-context";
 // import ReducerComponent from "./topics/07-reducers";
 // import FetchDataComponent from "./topics/08-fetch-data";
@@ -30,7 +31,7 @@ function App() {
 
       {/* <ReducerComponent /> */}
       {/* <FetchDataComponent /> */}
-      
+      <FetchDataAxios />
     </>
   );
 }
