@@ -1,5 +1,6 @@
 import "./App.css";
-import FetchDataAxios from "./topics/09-fetch-data-axios";
+// import FetchDataAxios from "./topics/09-fetch-data-axios";
+import ReduxToolkitComponent from "./topics/10-redux-toolkit";
 // import ContextComponent from "./topics/06-context";
 // import ReducerComponent from "./topics/07-reducers";
 // import FetchDataComponent from "./topics/08-fetch-data";
@@ -31,7 +32,8 @@ function App() {
 
       {/* <ReducerComponent /> */}
       {/* <FetchDataComponent /> */}
-      <FetchDataAxios />
+      {/* <FetchDataAxios /> */}
+      <ReduxToolkitComponent />
     </>
   );
 }
