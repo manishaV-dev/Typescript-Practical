@@ -7,7 +7,7 @@ function FetchDataAxios() {
     isPending,
     isError,
     error,
-    data: tours, // here you can use data also aur set other name as tours and from tours we map the data
+    data: tours, // here you can use data also aur set other name as tours and from tours we map the data 👇
   } = useQuery({
     queryKey: ["tours"], //any name
 
